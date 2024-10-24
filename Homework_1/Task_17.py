@@ -1,0 +1,6 @@
+a = float(input("Enter point A: "))
+b = float(input("Enter point B: "))
+c = float(input("Enter point C: "))
+ac = (a - c)
+bc = (b - c)
+print(f"AC: {ac}, BC: {bc}, Sum: {ac + bc}")
