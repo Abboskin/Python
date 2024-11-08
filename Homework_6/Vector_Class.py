@@ -14,7 +14,7 @@ class Vector:
         return not (self.x == 0 and self.y == 0 and self.z == 0)
 
     def __len__(self):
-        return 3  # For a 3D vector with attributes x, y, z
+        return 3 
 
     def __getitem__(self, index: int):
         if index == 0:
